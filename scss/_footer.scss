@@ -1,0 +1,61 @@
+.ConFondo {
+    padding: 30px;
+    background-color: rgba(255, 255, 240, 0.164);
+    border-radius: 5px;
+    .NavegacionFlex{
+        display: flex;
+        li{
+            list-style-type: none;
+            color: white;
+            background-color: rgba(128, 128, 128, 0);
+            a{
+                text-decoration: none;
+                color: white;
+                box-shadow: 2px 2px 2px rgb(0, 0, 128);
+                border: 2px solid rgb(0, 0, 128);
+                border-radius: 2px;
+                font-size: 16px;
+                padding: 10px;
+                margin: 3px;
+            }
+        }
+    }
+}
+
+.Fondo3{
+    background-color: rgba(128, 128, 128, 0);
+}
+
+.Fondo3:hover{
+    background-color: rgb(0, 0, 0);
+}
+
+.SitioWeb {
+    color: white;
+    font-size: 22px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+@each $redes in instagram, whatsapp, facebook{
+    .bi-#{$redes}{
+        color: white;
+        width: 100px;
+        font-size: 20px;
+    }
+}
+
+
+$redes:(
+        instagram: orange, 
+        whatsapp: green, 
+        facebook: rgb(64, 64, 182), 
+
+);
+
+@each $red, $color in $redes {
+    .bi-#{$red}:hover{
+        color: $color;
+
+    }
+} 

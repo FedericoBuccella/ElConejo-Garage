@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A continuacion se puede visualizar un formulario para poder contactarse con nosotros para evacuar las dudas necesarias">
+    <meta name="keywords" content="formulario, dudas, contacto, contactarme con la empresa, ElConejo garage.">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>~ Formulario de contacto ~</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul class="RedesSociales">
+                <li>
+                    <img class="IconRedes" src="../imagenes/Iconos/whatsapp.png" alt=""><a href=""></a>
+                </li>
+                <li>
+                    <img class="IconRedes" src="../imagenes/Iconos/email.png" alt=""><a href=""></a>
+                </li>
+                <li class="derecha">
+                    <img class="IconRedes" src="../imagenes/Iconos/instagram.png" alt="Insta"><a target="_blank"
+                        href="https://www.instagram.com/elconejogarage/"></a>
+                </li>
+                <li class="derecha">
+                    <img class="IconRedes" src="../imagenes/Iconos/facebook.png" alt=""><a href=""></a>
+                </li>
+                <li class="derecha">
+                    <img class="IconRedes" src="../imagenes/Iconos/youtube.png" alt=""><a href=""></a>
+                </li>
+
+            </ul>
+        </nav>
+
+        <nav class="navbar navbar-expand-lg bg-transparent ">
+            <div class="container-fluid">
+              <div>
+                  <a class="navbar-brand bg-transparent border-0 " href="index.html"><img width="500px" src="../imagenes/Logo1.png" alt=""></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"          aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+
+              <div class="collapse navbar-collapse flex-grow-0" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="../paginas/trabajos.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Trabajos
+                    </a>
+                    <ul class="SubMenu dropdown-menu bg-transparent" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="../paginas/strutbars.html">Struts Bars</a></li>
+                      <li><a class="dropdown-item" href="../paginas/multiples.html">Multiples de escape</a></li>
+                      <li><a class="dropdown-item" href="../paginas/soldaduras.html">Soldaduras en acero inoxidable</a></li>
+                      <li><a class="dropdown-item" href="../paginas/especificaciones.html">Caracteristicas de los productos</a></li>
+                      <li><a class="dropdown-item" href="../paginas/pintura.html">Pintura</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../paginas/videos.html">Videos ilustrativos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../paginas/sobre-nosotros.html">Sobre nosotros</a>
+                  </li>         
+                  <li class="nav-item">
+                    <a class="nav-link" href="../paginas/contacto.html">Contacto</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    <section>
+        <form>
+            <fieldset class="FormularioContacto">
+                <legend>
+                    <h4 class="columna3">Para enviarnos una consulta, complete el siguiente formulario:</h4>
+                </legend>
+                <div>
+                    <label class="columna" for="Nombre">Nombre:</label>
+                    <input class="fondo" required type="text" placeholder="Ej. Juan" name="Nombre" id="Nombre">
+                </div>
+                <div>
+                    <label class="columna" for="Apellido">Apellido:</label>
+                    <input class="fondo" required type="text" placeholder="Ej. Perez" name="Apellido" id="Apellido">
+                </div>
+                <div>
+                    <label class="columna" for="edad">Edad:</label>
+                    <input class="fondo" required type="number" name="Edad" id="Edad">
+                </div>
+                <div>
+                    <label class="columna" for="Telefono">Telefono:</label>
+                    <input placeholder="11-1111-1111" class="fondo" required type="text" name="Telefono" id="Telefono">
+                </div>
+                <div>
+                    <label class="columna" for="Sexo">Sexo:</label>
+                    <select class="fondo" name="Sexo" id="Sexo">
+                        <option value="Femenino">Femenino</option>
+                        <option value="Masculino">Masculino</option>
+                    </select>
+                </div>
+                <div>
+                    <p>
+                        <label class="columna" for="Consulta">Hacenos tu consulta:</label>
+                    </p>
+                    <textarea class="fondo" required name="Consulta" id="Consulta" cols="60" rows="15"
+                        maxlength="140"></textarea>
+                </div>
+                <div>
+                    <input type="reset" value="Borrar los campos">
+                    <input type="submit" value="Enviar">
+                </div>
+            </fieldset>
+        </form>
+
+    </section>
+
+    <footer class="d-flex flex-row justify-content-between align-items-center">
+        <div class="SitioWeb w-50">
+            <p>Sitio web desarrollado por Federico Buccella </p>
+        </div>
+        <div class="d-flex ">
+            <div class="d-flex flex-column justify-content-center">
+                <a target= "_blank" class="text-decoration-none" href="https://www.instagram.com/elconejogarage"><i class="bi-instagram"> Instagram</i></a>
+                <i class="bi-whatsapp"> Whatsapp</i>
+                <i class="bi-facebook"> Facebook</i>
+            </div>
+            <img width="170px" height="120px" src="/imagenes/Logo2.png" alt="">
+        </div>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
