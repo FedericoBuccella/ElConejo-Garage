@@ -52,15 +52,14 @@
     display: flex;
     flex-flow: row wrap;
     align-items: center;
-    justify-content: center; 
-    
+    justify-content: center;
+
     .prueba{
         display: grid;
         grid-template-columns: auto auto;
         grid-template-rows: 1fr 1fr 1fr;
         justify-content: start;
         align-items: center;
-        margin: 80px;
         
         .letra{
             color: white;
@@ -85,12 +84,11 @@
     grid-template-rows: 1fr 1fr 1fr 1fr ;
     align-items: center;
     justify-content: start;
-    margin: 80px;
 }
 
 
-.prueba, .contenedormultiple{
-    margin: 80px;
+.prueba1, .prueba, .contenedormultiple{
+    margin: 30px;
 }
 
 .margen, .contenedortotal{
