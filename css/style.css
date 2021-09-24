@@ -530,6 +530,11 @@ nav ul li:hover .SubMenu {
 .columna {
   color: white;
   font-size: 20px;
+  padding: 5px;
+}
+
+fieldset {
+  margin: 50px;
 }
 
 .columna3 {
