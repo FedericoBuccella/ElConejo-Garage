@@ -202,9 +202,10 @@ h2 {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  width: 100%;
 }
 
-.contenedortotal .prueba {
+.prueba {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: auto auto;
@@ -219,20 +220,20 @@ h2 {
           align-items: center;
 }
 
-.contenedortotal .prueba .letra {
+.letra {
   color: white;
   text-align: center;
   width: 300px;
 }
 
-.contenedortotal .prueba1 {
+.prueba1 {
   -ms-grid-row: 1;
   -ms-grid-row-span: 4;
   grid-row: 1/5;
   text-align: center;
 }
 
-.contenedortotal .FotosFlex2 {
+.FotosFlex2 {
   width: 250px;
   border-radius: 10px;
   border: 3px solid navy;
