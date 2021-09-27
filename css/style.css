@@ -620,7 +620,7 @@ fieldset {
   }
 }
 
-@media (max-width: 415px) {
+@media (max-width: 414px) {
   .contenedortotal {
     display: -ms-grid;
     display: grid;
