@@ -1,23 +1,22 @@
-.Sobre1, .Sobre2{
+.Sobre1{
     width: 50%;
     color: white;
     font-weight: 700;
     font-size: 24px;
     text-align: center;
-    position: relative; left: 50%; top: -160px;
 }
 
-.Sobre2{
-    margin-bottom: 40px;
-    margin-top: 40px;
-}
 
 .Swift{
-    margin-top: 30px;
-    width: 45%;
-    margin-bottom: -300px;
+    width: 40%;
 }
 
 .MargenSobre{
-    margin-top: 100px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-around;
+
 }

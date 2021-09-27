@@ -268,30 +268,33 @@ h2 {
   width: 300px;
 }
 
-.Sobre1, .Sobre2 {
+.Sobre1 {
   width: 50%;
   color: white;
   font-weight: 700;
   font-size: 24px;
   text-align: center;
-  position: relative;
-  left: 50%;
-  top: -160px;
-}
-
-.Sobre2 {
-  margin-bottom: 40px;
-  margin-top: 40px;
 }
 
 .Swift {
-  margin-top: 30px;
-  width: 45%;
-  margin-bottom: -300px;
+  width: 40%;
 }
 
 .MargenSobre {
-  margin-top: 100px;
+  margin-top: 50px;
+  margin-bottom: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
 .ConFondo {
@@ -617,7 +620,7 @@ fieldset {
   }
 }
 
-@media (max-width: 750px) {
+@media (max-width: 415px) {
   .contenedortotal {
     display: -ms-grid;
     display: grid;
@@ -628,11 +631,11 @@ fieldset {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -webkit-box-pack: stretch;
+        -ms-flex-pack: stretch;
+            justify-content: stretch;
   }
-  .contenedortotal .prueba {
+  .prueba {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 1fr;
@@ -646,20 +649,20 @@ fieldset {
         -ms-flex-align: center;
             align-items: center;
   }
-  .contenedortotal .prueba1 {
+  .prueba1 {
     -ms-grid-row: 1;
     -ms-grid-row-span: 4;
     grid-row: 1/5;
     text-align: start;
   }
-  .contenedortotal .FotosFlex2 {
+  .FotosFlex2 {
     width: 200px;
     border-radius: 10px;
     border: 3px solid navy;
     position: relative;
     left: 50px;
   }
-  .contenedortotal .contenedormultiple {
+  .contenedormultiple {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 1fr;
@@ -673,11 +676,16 @@ fieldset {
         -ms-flex-pack: start;
             justify-content: start;
   }
-  .contenedortotal .prueba1 {
-    -ms-grid-row: 1;
-    -ms-grid-row-span: 4;
-    grid-row: 1/5;
-    text-align: start;
+  .Conocenos {
+    width: 30%;
+  }
+  .conejo {
+    position: absolute;
+    right: 80px;
+    width: 170px;
+  }
+  .SitioWeb {
+    font-size: medium;
   }
 }
 /*# sourceMappingURL=style.css.map */
