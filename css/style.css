@@ -6,6 +6,10 @@
           box-sizing: border-box;
 }
 
+ol, ul {
+  padding-left: 0;
+}
+
 body {
   font-family: 'Open Sans Condensed', sans-serif;
   background-image: url(../imagenes/wepik-2021720-144851.jpg);
@@ -93,6 +97,10 @@ h2 {
 .carousel {
   display: block;
   text-align: -webkit-center;
+}
+
+.carousel .fotocarousel {
+  width: 50%;
 }
 
 .BotonIndex {
@@ -686,6 +694,14 @@ fieldset {
   }
   .SitioWeb {
     font-size: medium;
+  }
+  .conejoblanco {
+    width: 370px;
+  }
+  .fotocarousel {
+    width: 70% !important;
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
 }
 /*# sourceMappingURL=style.css.map */
