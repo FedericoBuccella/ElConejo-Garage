@@ -6,6 +6,10 @@
           box-sizing: border-box;
 }
 
+html {
+  overflow-x: hidden;
+}
+
 ol, ul {
   padding-left: 0;
 }
@@ -311,19 +315,19 @@ h2 {
   border-radius: 5px;
 }
 
-.ConFondo .NavegacionFlex {
+.NavegacionFlex {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.ConFondo .NavegacionFlex li {
+.NavegacionFlex li {
   list-style-type: none;
   color: white;
   background-color: rgba(128, 128, 128, 0);
 }
 
-.ConFondo .NavegacionFlex li a {
+.NavegacionFlex li a {
   text-decoration: none;
   color: white;
   -webkit-box-shadow: 2px 2px 2px navy;
@@ -425,28 +429,7 @@ nav div a {
   border: 3px solid navy;
   border-radius: 7px;
   background-color: rgba(128, 128, 128, 0.384);
-  margin: 5px;
   padding: 4px;
-}
-
-.SubMenu {
-  color: white;
-  display: none;
-}
-
-.SubMenu li {
-  width: 100%;
-  text-align: center;
-  position: relative;
-  left: -120px;
-  z-index: 1;
-}
-
-nav ul li:hover .SubMenu {
-  display: block;
-  position: absolute;
-  padding-left: 150px;
-  padding-right: 150px;
 }
 
 .RedesSociales li {
@@ -611,24 +594,7 @@ fieldset {
   font-size: 50px;
 }
 
-@media (max-width: 1050px) {
-  .container-fluid {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-}
-
-@media (max-width: 414px) {
+@media (max-width: 415px) {
   .contenedortotal {
     display: -ms-grid;
     display: grid;
@@ -701,6 +667,38 @@ fieldset {
   .fotocarousel {
     margin-top: 20px;
     margin-bottom: 20px;
+    width: 100%;
+  }
+  .container-fluid {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+  }
+  .navbar-light .navbar-toggler {
+    color: white;
+    border-color: #fdfdfd;
+    background-color: rgba(128, 128, 128, 0.363);
+  }
+  .index1 {
+    font-size: 35px;
+    font-weight: 700;
+  }
+  .index2 {
+    font-size: 25px;
+  }
+  .margen {
+    background-color: rgba(128, 128, 128, 0.363);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .margen h3 {
+    font-size: 30px;
   }
 }
 /*# sourceMappingURL=style.css.map */
