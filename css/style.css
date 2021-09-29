@@ -700,5 +700,8 @@ fieldset {
   .margen h3 {
     font-size: 30px;
   }
+  .navbar-nav .dropdown-menu {
+    width: 99%;
+  }
 }
 /*# sourceMappingURL=style.css.map */
