@@ -2,10 +2,6 @@
     float: right;
 }
 
-nav div a{
-    text-align: center;
-}
-
 .navbar {
     background-color: rgba(128, 128, 128, 0.288);
     div a{
@@ -16,6 +12,7 @@ nav div a{
         border-radius: 7px;
         background-color: rgba(128, 128, 128, 0.384);
         padding: 4px;
+        text-align: center
     }
 }
 

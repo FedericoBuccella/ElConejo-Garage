@@ -93,4 +93,11 @@
         position:relative; left: 38px;
     }
 
+    .navbar-light .navbar-toggler{
+        display: none;
+    }
+
+    .btn-primary{
+        display: inline !important;
+    }
 }
