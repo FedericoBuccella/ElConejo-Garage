@@ -137,11 +137,6 @@ h2 {
           transform: translateY(7px);
 }
 
-.offcanvas {
-  background-image: url(../imagenes/wepik-2021720-144851.jpg);
-  opacity: 0.9;
-}
-
 .contenedorGrids {
   display: -ms-grid;
   display: grid;
@@ -715,9 +710,9 @@ fieldset {
     width: 83% !important;
     border: 0px;
   }
-  .btn-primary:not(:focus) {
-    -webkit-backdrop-filter: blur(20px);
-            backdrop-filter: blur(20px);
+  .offcanvas {
+    background-image: url(../imagenes/wepik-2021720-144851.jpg);
+    opacity: 0.9;
   }
 }
 
@@ -836,6 +831,10 @@ fieldset {
   .dropdown-menu {
     width: 83% !important;
     border: 0px;
+  }
+  .offcanvas {
+    background-image: url(../imagenes/wepik-2021720-144851.jpg);
+    opacity: 0.9;
   }
 }
 /*# sourceMappingURL=style.css.map */

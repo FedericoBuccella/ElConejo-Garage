@@ -107,8 +107,9 @@
         border: 0px;
     }
 
-    .btn-primary:not(:focus){
-        backdrop-filter: blur(20px);
+    .offcanvas{
+        background-image: url(../imagenes/wepik-2021720-144851.jpg);
+        opacity: 0.9;
     }
 }
 
@@ -214,4 +215,10 @@
         width: 83% !important;
         border: 0px;
     }
+
+    .offcanvas{
+        background-image: url(../imagenes/wepik-2021720-144851.jpg);
+        opacity: 0.9;
+    }
+    
 }
