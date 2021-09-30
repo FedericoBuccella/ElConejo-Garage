@@ -1,6 +1,11 @@
 
 
 @media (max-width: 740px){
+
+    .body{
+        background-attachment: fixed;
+    }
+
     .contenedortotal{
         display: grid;
         grid-template-columns: 1fr;
@@ -100,6 +105,10 @@
     .dropdown-menu{
         width: 83% !important;
         border: 0px;
+    }
+
+    .btn-primary:not(:focus){
+        backdrop-filter: blur(20px);
     }
 }
 
