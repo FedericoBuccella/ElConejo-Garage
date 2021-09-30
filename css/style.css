@@ -708,5 +708,9 @@ fieldset {
   .btn-primary {
     display: inline !important;
   }
+  .dropdown-menu {
+    width: 83% !important;
+    border: 0px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
