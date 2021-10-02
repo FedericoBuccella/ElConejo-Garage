@@ -1,0 +1,42 @@
+.Principal{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 15%;
+    padding: 0;
+}
+
+body{
+    background-image: url(../imagenes/wepik-2021720-144851.jpg);
+    background-attachment: fixed;
+}
+
+.BotonIngreso{
+    width: 120%;
+    color: white;
+    padding: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    box-shadow: 2px 2px 2px rgb(0, 0, 128);
+    border: 2px solid rgb(0, 0, 128);
+    border-radius: 8px;
+    margin-bottom: 40px;
+    margin-top: 2%;
+    background-color: rgba(128, 128, 128, 0.336);
+    font-size: 25px;
+}
+
+.BotonIngreso:hover{
+    cursor: pointer;
+    transform: translateY(-5px);
+    transition: all cubic-bezier(0.215, 0.610, 0.355, 1) 0.5s;
+}
+
+.BotonIngreso:active{
+    transform: translateZ(5px);
+    transition: all cubic-bezier(0.215, 0.610, 0.355, 1) 0.5s;
+
+}

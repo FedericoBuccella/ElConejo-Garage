@@ -84,7 +84,7 @@ body {
   vertical-align: baseline;
 }
 
-h1, h2 {
+.index1, .index2 {
   color: dodgerblue;
   font-weight: 300;
   font-size: 40px;
@@ -93,7 +93,7 @@ h1, h2 {
   margin-top: 80px;
 }
 
-h2 {
+.index2 {
   text-align: left;
   font-size: 30px;
 }
@@ -527,6 +527,69 @@ h2 {
 
 fieldset {
   margin: 50px;
+}
+
+.Principal {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  margin-top: 15%;
+  padding: 0;
+}
+
+body {
+  background-image: url(../imagenes/wepik-2021720-144851.jpg);
+  background-attachment: fixed;
+}
+
+.BotonIngreso {
+  width: 120%;
+  color: white;
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-shadow: 2px 2px 2px navy;
+          box-shadow: 2px 2px 2px navy;
+  border: 2px solid navy;
+  border-radius: 8px;
+  margin-bottom: 40px;
+  margin-top: 2%;
+  background-color: rgba(128, 128, 128, 0.336);
+  font-size: 25px;
+}
+
+.BotonIngreso:hover {
+  cursor: pointer;
+  -webkit-transform: translateY(-5px);
+          transform: translateY(-5px);
+  -webkit-transition: all cubic-bezier(0.215, 0.61, 0.355, 1) 0.5s;
+  transition: all cubic-bezier(0.215, 0.61, 0.355, 1) 0.5s;
+}
+
+.BotonIngreso:active {
+  -webkit-transform: translateZ(5px);
+          transform: translateZ(5px);
+  -webkit-transition: all cubic-bezier(0.215, 0.61, 0.355, 1) 0.5s;
+  transition: all cubic-bezier(0.215, 0.61, 0.355, 1) 0.5s;
 }
 
 .columna3 {
