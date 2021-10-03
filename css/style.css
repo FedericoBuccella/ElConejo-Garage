@@ -94,8 +94,10 @@ body {
 }
 
 .index2 {
-  text-align: left;
+  text-decoration: none;
+  text-align: center;
   font-size: 30px;
+  font-weight: 700;
 }
 
 .carousel {
@@ -780,6 +782,9 @@ body {
 }
 
 @media (max-width: 415px) {
+  html {
+    overflow-x: hidden;
+  }
   .contenedortotal {
     display: -ms-grid;
     display: grid;
@@ -820,6 +825,13 @@ body {
     border: 3px solid navy;
     position: relative;
     left: 50px;
+  }
+  .FotosFlex {
+    width: 80%;
+  }
+  .FotosFlex1 {
+    width: 300px;
+    height: 150px;
   }
   .contenedormultiple {
     display: -ms-grid;

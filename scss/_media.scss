@@ -115,6 +115,11 @@
 
 
 @media (max-width: 415px){
+
+    html{
+        overflow-x: hidden;
+    }
+
     .contenedortotal{
         display: grid;
         grid-template-columns: 1fr;
@@ -139,6 +144,15 @@
         border-radius: 10px;
         border: 3px solid rgb(0, 0, 128);
         position: relative; left: 50px;
+    }
+
+    .FotosFlex{
+        width: 80%;
+    }
+
+    .FotosFlex1{
+        width: 300px;
+        height: 150px;
     }
    
     .contenedormultiple{
