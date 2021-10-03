@@ -899,5 +899,13 @@ body {
     background-image: url(../imagenes/wepik-2021720-144851.jpg);
     opacity: 0.9;
   }
+  .Principal {
+    margin-top: 50%;
+  }
+  .Principal .ImagenBienvenido {
+    width: 90%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
 }
 /*# sourceMappingURL=style.css.map */
