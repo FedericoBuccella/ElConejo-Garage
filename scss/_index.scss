@@ -19,12 +19,13 @@ body {
     scroll-behavior: smooth;
 }
 .index1 {
+    width: 75%;
     color: rgb(30, 144, 255);
     text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 50px;
+    font-size: 35px;
     margin-top: 3%;
-    margin-bottom: 3%;
+    margin-bottom: 5%;
 }
 
 .index2 {
@@ -32,7 +33,18 @@ body {
     text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 30px;
-    margin-bottom: 20%;
+    text-decoration: none;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.index1, .index2{
+    color: rgb(30, 144, 255);
+    font-weight: 300;
+    text-align: center;
+    text-decoration: underline;
+    
 }
 
 .Conocenos{
@@ -71,22 +83,6 @@ body {
 .IconRedes {
     width: 30px;
     vertical-align: baseline;
-}
-
-.index1, .index2{
-    color: rgb(30, 144, 255);
-    font-weight: 300;
-    font-size: 40px;
-    text-align: center;
-    text-decoration: underline;
-    margin-top: 80px;
-}
-
-.index2{
-    text-decoration: none;
-    text-align: center;
-    font-size: 30px;
-    font-weight: 700;
 }
 
 .carousel{

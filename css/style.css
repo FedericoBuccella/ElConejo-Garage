@@ -22,12 +22,13 @@ body {
 }
 
 .index1 {
+  width: 75%;
   color: dodgerblue;
   text-align: center;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font-size: 50px;
+  font-size: 35px;
   margin-top: 3%;
-  margin-bottom: 3%;
+  margin-bottom: 5%;
 }
 
 .index2 {
@@ -35,7 +36,17 @@ body {
   text-align: center;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 30px;
-  margin-bottom: 20%;
+  text-decoration: none;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.index1, .index2 {
+  color: dodgerblue;
+  font-weight: 300;
+  text-align: center;
+  text-decoration: underline;
 }
 
 .Conocenos {
@@ -82,22 +93,6 @@ body {
 .IconRedes {
   width: 30px;
   vertical-align: baseline;
-}
-
-.index1, .index2 {
-  color: dodgerblue;
-  font-weight: 300;
-  font-size: 40px;
-  text-align: center;
-  text-decoration: underline;
-  margin-top: 80px;
-}
-
-.index2 {
-  text-decoration: none;
-  text-align: center;
-  font-size: 30px;
-  font-weight: 700;
 }
 
 .carousel {
@@ -203,29 +198,21 @@ body {
 }
 
 .contenedortotal {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: row wrap;
-          flex-flow: row wrap;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  width: 100%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
 }
 
 .prueba {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: auto auto;
-      grid-template-columns: auto auto;
-  -ms-grid-rows: 1fr 1fr 1fr;
-      grid-template-rows: 1fr 1fr 1fr;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: 0.5fr 1fr 0.5fr;
+      grid-template-rows: 0.5fr 1fr 0.5fr;
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: start;
@@ -234,17 +221,11 @@ body {
           align-items: center;
 }
 
-.letra {
-  color: white;
-  text-align: center;
-  width: 300px;
-}
-
 .prueba1 {
   -ms-grid-row: 1;
   -ms-grid-row-span: 4;
   grid-row: 1/5;
-  text-align: center;
+  text-align: end;
 }
 
 .FotosFlex2 {
@@ -256,8 +237,8 @@ body {
 .contenedormultiple {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: auto auto;
-      grid-template-columns: auto auto;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
   -ms-grid-rows: 1fr 1fr 1fr 1fr;
       grid-template-rows: 1fr 1fr 1fr 1fr;
   -webkit-box-align: center;
@@ -268,8 +249,10 @@ body {
           justify-content: start;
 }
 
-.prueba1, .prueba, .contenedormultiple {
-  margin: 30px;
+.prueba, .contenedormultiple {
+  margin-right: 20%;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 .margen, .contenedortotal {
@@ -280,6 +263,20 @@ body {
   color: white;
   text-align: center;
   width: 300px;
+  font-size: 20px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+}
+
+.letra {
+  color: white;
+  text-align: center;
+  width: 300px;
+  margin-right: 0px;
+}
+
+.letra1, .letra {
+  width: 100%;
 }
 
 .Sobre1 {
@@ -518,7 +515,7 @@ body {
 }
 
 .fondo {
-  background-color: rgba(255, 255, 255, 0.671);
+  background-color: white;
 }
 
 .columna {
@@ -698,8 +695,6 @@ body {
     width: 200px;
     border-radius: 10px;
     border: 3px solid navy;
-    position: relative;
-    left: 50px;
   }
   .contenedormultiple {
     display: -ms-grid;
@@ -714,6 +709,9 @@ body {
     -webkit-box-pack: start;
         -ms-flex-pack: start;
             justify-content: start;
+  }
+  .prueba, .contenedormultiple {
+    justify-items: center;
   }
   .Conocenos {
     width: 30%;
@@ -748,7 +746,7 @@ body {
     background-color: rgba(128, 128, 128, 0.363);
   }
   .index1 {
-    font-size: 35px;
+    font-size: 30px;
     font-weight: 700;
   }
   .index2 {
@@ -792,12 +790,7 @@ body {
         grid-template-columns: 1fr;
     -ms-grid-rows: 1fr 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: stretch;
-        -ms-flex-pack: stretch;
-            justify-content: stretch;
+    padding-bottom: 30px;
   }
   .prueba {
     display: -ms-grid;
@@ -817,14 +810,16 @@ body {
     -ms-grid-row: 1;
     -ms-grid-row-span: 4;
     grid-row: 1/5;
-    text-align: start;
+    text-align: center;
+  }
+  .prueba, .contenedormultiple {
+    margin: 0px;
+    padding: 10px;
   }
   .FotosFlex2 {
     width: 200px;
     border-radius: 10px;
     border: 3px solid navy;
-    position: relative;
-    left: 50px;
   }
   .FotosFlex {
     width: 80%;
@@ -849,6 +844,7 @@ body {
   }
   .Conocenos {
     width: 30%;
+    font-size: 20px;
   }
   .conejo {
     position: absolute;
@@ -880,7 +876,7 @@ body {
     background-color: rgba(128, 128, 128, 0.363);
   }
   .index1 {
-    font-size: 35px;
+    font-size: 25px;
     font-weight: 700;
   }
   .index2 {
