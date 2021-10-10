@@ -47,6 +47,19 @@
         width: 30%;
     }
 
+    .MargenSobre{
+        display: flex;
+        flex-flow: column wrap;
+        .Swift{
+            width: 100%;
+        }
+        .Sobre1{
+            width: 100%;
+            font-size: 20px;
+            font-weight: 100;
+        }
+    }
+
     .conejo{
         position: absolute; 
         right: 80px;
@@ -114,6 +127,10 @@
     .offcanvas{
         background-image: url(../imagenes/wepik-2021720-144851.jpg);
         opacity: 0.9;
+    }
+
+    .TablaEspecificaciones{
+        width: 90%;
     }
 }
 
@@ -195,6 +212,10 @@
         width: 100%;
     }
 
+    .carousel{
+        margin-top: 0px;
+    }
+
     .container-fluid{
         display: flex;
         justify-content: center !important;
@@ -208,11 +229,11 @@
 
     .index1{
         font-size: 25px;
-        font-weight: 700;
+        font-weight: 100;
     }
 
     .index2{
-        font-size: 25px;
+        font-size: 20px;
     }
 
     .margen{ 
@@ -223,6 +244,19 @@
         h3{
         font-size: 30px;
      }
+    }
+
+    .MargenSobre{
+        display: flex;
+        flex-flow: column wrap;
+        .Swift{
+            width: 100%;
+        }
+        .Sobre1{
+            width: 100%;
+            font-size: 20px;
+            font-weight: 100;
+        }
     }
     
     .navbar-light .navbar-toggler{
@@ -253,4 +287,21 @@
         }
     }
 
+    .TablaEspecificaciones{
+        width: 99%;
+        .fila1, .columna1{
+            font-size: 17px;
+        }
+        .Columna2{
+            font-size: 15px;
+        }
+    }
+
+    .SubTitulo, .SubTitulo2{
+        font-size: 20px;
+    }
+
+    .dropdown-menu{
+        margin: 25px;
+    }
 }

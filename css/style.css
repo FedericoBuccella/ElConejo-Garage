@@ -37,8 +37,6 @@ body {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 30px;
   text-decoration: none;
-  text-align: center;
-  font-size: 30px;
   font-weight: 700;
 }
 
@@ -64,7 +62,7 @@ body {
   border: 2px solid navy;
   border-radius: 8px;
   margin-bottom: 40px;
-  margin-top: 2%;
+  margin-top: 5%;
   background-color: rgba(128, 128, 128, 0.336);
   font-size: 25px;
 }
@@ -591,35 +589,21 @@ body {
   transition: all cubic-bezier(0.215, 0.61, 0.355, 1) 0.5s;
 }
 
-.columna3 {
-  color: mintcream;
-  font-size: 20px;
+.especificaciones {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-.Texto {
-  margin: 3px;
-  position: relative;
-  top: -43px;
-  left: 300px;
-  font-size: 18px;
-}
-
-.subtitulos {
-  color: white;
-  text-align: center;
-  text-decoration: underline;
-  margin: 10px 0;
-  font-size: 30px;
-  font-weight: 300;
-}
-
-/**---TABLA DE ESPECIFICACIONES DE PRODUCTOS---**/
 .TablaEspecificaciones {
   width: 60%;
-  text-align: center;
-  position: relative;
-  left: 15%;
-  padding: 20px;
   margin: 20px;
 }
 
@@ -651,6 +635,39 @@ body {
   color: white;
   text-align: center;
   font-size: 50px;
+}
+
+.SubTitulo, .SubTitulo2 {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 30px;
+  color: dodgerblue;
+  padding: 5px;
+}
+
+.SubTitulo2 {
+  text-decoration: underline;
+}
+
+.columna3 {
+  color: mintcream;
+  font-size: 20px;
+}
+
+.Texto {
+  margin: 3px;
+  position: relative;
+  top: -43px;
+  left: 300px;
+  font-size: 18px;
+}
+
+.subtitulos {
+  color: white;
+  text-align: center;
+  text-decoration: underline;
+  margin: 10px 0;
+  font-size: 30px;
+  font-weight: 300;
 }
 
 @media (max-width: 740px) {
@@ -716,6 +733,23 @@ body {
   .Conocenos {
     width: 30%;
   }
+  .MargenSobre {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+  }
+  .MargenSobre .Swift {
+    width: 100%;
+  }
+  .MargenSobre .Sobre1 {
+    width: 100%;
+    font-size: 20px;
+    font-weight: 100;
+  }
   .conejo {
     position: absolute;
     right: 80px;
@@ -776,6 +810,9 @@ body {
   .offcanvas {
     background-image: url(../imagenes/wepik-2021720-144851.jpg);
     opacity: 0.9;
+  }
+  .TablaEspecificaciones {
+    width: 90%;
   }
 }
 
@@ -862,6 +899,9 @@ body {
     margin-bottom: 20px;
     width: 100%;
   }
+  .carousel {
+    margin-top: 0px;
+  }
   .container-fluid {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -877,10 +917,10 @@ body {
   }
   .index1 {
     font-size: 25px;
-    font-weight: 700;
+    font-weight: 100;
   }
   .index2 {
-    font-size: 25px;
+    font-size: 20px;
   }
   .margen {
     background-color: rgba(128, 128, 128, 0.363);
@@ -892,6 +932,23 @@ body {
   }
   .margen h3 {
     font-size: 30px;
+  }
+  .MargenSobre {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+  }
+  .MargenSobre .Swift {
+    width: 100%;
+  }
+  .MargenSobre .Sobre1 {
+    width: 100%;
+    font-size: 20px;
+    font-weight: 100;
   }
   .navbar-light .navbar-toggler {
     display: none;
@@ -914,6 +971,21 @@ body {
     width: 90%;
     margin-top: 10%;
     margin-bottom: 10%;
+  }
+  .TablaEspecificaciones {
+    width: 99%;
+  }
+  .TablaEspecificaciones .fila1, .TablaEspecificaciones .columna1 {
+    font-size: 17px;
+  }
+  .TablaEspecificaciones .Columna2 {
+    font-size: 15px;
+  }
+  .SubTitulo, .SubTitulo2 {
+    font-size: 20px;
+  }
+  .dropdown-menu {
+    margin: 25px;
   }
 }
 /*# sourceMappingURL=style.css.map */
