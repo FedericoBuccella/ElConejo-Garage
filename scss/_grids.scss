@@ -49,6 +49,8 @@
 }
 
 .contenedortotal{
+    border-radius: 10px;
+    border: 4px solid midnightblue;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
@@ -87,7 +89,7 @@
     margin-bottom: 5%;
 }
 
-.margen, .contenedortotal{
+.contenedortotal{
     background-color: rgba(128, 128, 128, 0.24);
 }
 
