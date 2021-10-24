@@ -1,86 +1,92 @@
-@media (max-width: 961px){
+@media (max-width: 961px) {
 
-    .body{
+    .body {
         background-attachment: fixed;
     }
 
-    .contenedortotal{
+    .contenedortotal {
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr;
         align-items: center;
         justify-content: stretch;
-       
+
     }
-    .prueba{
+
+    .prueba {
         display: grid;
-        grid-template-columns: 1fr 1fr ;
+        grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr;
         justify-content: start;
         align-items: center;
     }
-    .prueba1{
+
+    .prueba1 {
         grid-row: 1/5;
         text-align: start;
     }
-    .FotosFlex2{
+
+    .FotosFlex2 {
         width: 200px;
         border-radius: 10px;
         border: 3px solid rgb(0, 0, 128);
     }
-   
-    .contenedormultiple{
+
+    .contenedormultiple {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr ;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
         align-items: center;
         justify-content: start;
     }
 
-    .prueba, .contenedormultiple {
+    .prueba,
+    .contenedormultiple {
         justify-items: center;
         margin-right: 20%;
         margin-bottom: 2%;
     }
 
-    .Conocenos{
+    .Conocenos {
         width: 30%;
     }
 
-    .MargenSobre{
+    .MargenSobre {
         display: flex;
         flex-flow: column wrap;
-        .Swift{
+
+        .Swift {
             width: 100%;
         }
-        .Sobre1{
+
+        .Sobre1 {
             width: 100%;
             font-size: 20px;
             font-weight: 100;
         }
     }
 
-    .conejo{
-        position: absolute; 
+    .conejo {
+        position: absolute;
         right: 80px;
         width: 170px;
     }
 
-    .SitioWeb{
+    .SitioWeb {
         font-size: medium;
     }
 
-    .conejoblanco{
+    .conejoblanco {
         width: 370px;
     }
 
-    .fotocarousel{
+    .fotocarousel {
         margin-top: 20px;
         margin-bottom: 20px;
         width: 100%;
     }
 
-    .container-fluid{
+    .container-fluid {
         display: flex;
         justify-content: center !important;
     }
@@ -91,161 +97,168 @@
         background-color: rgba(128, 128, 128, 0.363);
     }
 
-    .index1{
+    .index1 {
         font-size: 30px;
         font-weight: 700;
     }
 
-    .index2{
+    .index2 {
         font-size: 25px;
     }
-    
 
-    .margen{ 
-        
+
+    .margen {
+
         align-items: center;
-        h3{
-        font-size: 30px;
-        background-color: rgba(128, 128, 128, 0.363);
-     }
+
+        h3 {
+            font-size: 30px;
+            background-color: rgba(128, 128, 128, 0.363);
+        }
     }
-    
-    .navbar-light .navbar-toggler{
+
+    .navbar-light .navbar-toggler {
         display: none;
     }
 
-    .btn-primary{
+    .btn-primary {
         display: inline !important;
     }
 
-    .dropdown-menu{
+    .dropdown-menu {
         width: 83% !important;
         border: 0px;
         margin: 25px;
     }
 
-    .offcanvas{
+    .offcanvas {
         background-image: url(../imagenes/wepik-2021720-144851.jpg);
         opacity: 0.9;
     }
 
-    .TablaEspecificaciones{
+    .TablaEspecificaciones {
         width: 90%;
     }
 
-    .fotocontacto{
+    .fotocontacto {
         display: none;
     }
 }
 
 
-@media (max-width: 740px){
+@media (max-width: 740px) {
 
-    .body{
+    .body {
         background-attachment: fixed;
     }
 
-    .SubTitulo{
+    .SubTitulo {
         text-align: center;
         font-size: 27px;
     }
 
-    .contenedortotal{
+    .contenedortotal {
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr;
         align-items: center;
         justify-content: stretch;
-       
+
     }
-    .prueba{
+
+    .prueba {
         display: grid;
-        grid-template-columns: 1fr 1fr ;
+        grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr;
         justify-content: start;
         align-items: center;
     }
-    .prueba1{
+
+    .prueba1 {
         grid-row: 1/5;
         text-align: start;
     }
-    .FotosFlex2{
+
+    .FotosFlex2 {
         width: 200px;
         border-radius: 10px;
         border: 3px solid rgb(0, 0, 128);
     }
 
-    .FotosFlex{
+    .FotosFlex {
         width: 70%;
     }
 
-    .FotosFlex1{
+    .FotosFlex1 {
         width: 400px;
         height: 200px;
     }
 
-    .margin{
+    .margin {
         text-align: right;
-    }   
-   
-    .contenedormultiple{
+    }
+
+    .contenedormultiple {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr ;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
         align-items: center;
         justify-content: start;
     }
 
-    .prueba, .contenedormultiple {
+    .prueba,
+    .contenedormultiple {
         justify-items: center;
     }
 
-    .Conocenos{
+    .Conocenos {
         width: 30%;
     }
 
-    .MargenSobre{
+    .MargenSobre {
         display: flex;
         flex-flow: column wrap;
-        .Swift{
+
+        .Swift {
             width: 100%;
         }
-        .Sobre1{
+
+        .Sobre1 {
             width: 100%;
             font-size: 20px;
             font-weight: 100;
         }
     }
 
-    .contenedorGrids1{
+    .contenedorGrids1 {
         margin-top: 40px;
     }
 
-    .contenedorGrids{
+    .contenedorGrids {
         margin-top: 40px;
     }
 
-    .conejo{
-        position: absolute; 
+    .conejo {
+        position: absolute;
         right: 80px;
         width: 170px;
     }
 
-    .SitioWeb{
+    .SitioWeb {
         font-size: medium;
     }
 
-    .conejoblanco{
+    .conejoblanco {
         width: 370px;
     }
 
-    .fotocarousel{
+    .fotocarousel {
         margin-top: 20px;
         margin-bottom: 20px;
         width: 100%;
     }
 
-    .container-fluid{
+    .container-fluid {
         display: flex;
         justify-content: center !important;
     }
@@ -256,138 +269,142 @@
         background-color: rgba(128, 128, 128, 0.363);
     }
 
-    .index1{
+    .index1 {
         font-size: 30px;
         font-weight: 700;
     }
 
-    .index2{
+    .index2 {
         font-size: 25px;
         margin-top: 20px;
     }
-    
 
-    .margen{ 
-        
-        padding-top: 10px ;
+
+    .margen {
+
+        padding-top: 10px;
         padding-bottom: 10px;
         align-items: center;
-        h3{
-        font-size: 30px;
-        background-color: rgba(128, 128, 128, 0.363);
-     }
+
+        h3 {
+            font-size: 30px;
+            background-color: rgba(128, 128, 128, 0.363);
+        }
     }
-    
-    .navbar-light .navbar-toggler{
+
+    .navbar-light .navbar-toggler {
         display: none;
     }
 
-    .btn-primary{
+    .btn-primary {
         display: inline !important;
     }
 
-    .dropdown-menu{
+    .dropdown-menu {
         width: 83% !important;
         border: 0px;
     }
 
-    .offcanvas{
+    .offcanvas {
         background-image: url(../imagenes/wepik-2021720-144851.jpg);
         opacity: 0.9;
     }
 
-    .TablaEspecificaciones{
+    .TablaEspecificaciones {
         width: 90%;
     }
 
-    .fotocontacto{
+    .fotocontacto {
         display: none;
     }
 }
 
 
-@media (max-width: 415px){
+@media (max-width: 415px) {
 
-    html{
+    html {
         overflow-x: hidden;
     }
 
-    .contenedortotal{
+    .contenedortotal {
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr;
         padding-bottom: 30px;
     }
-    .prueba{
+
+    .prueba {
         display: grid;
-        grid-template-columns: 1fr ;
+        grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr 1fr;
         justify-content: start;
         align-items: center;
     }
-    .prueba1{
+
+    .prueba1 {
         grid-row: 1/5;
         text-align: center;
     }
 
-    .prueba, .contenedormultiple{
+    .prueba,
+    .contenedormultiple {
         margin: 0px;
         padding: 10px;
     }
 
-    .FotosFlex2{
+    .FotosFlex2 {
         width: 200px;
         border-radius: 10px;
         border: 3px solid rgb(0, 0, 128);
     }
 
-    .FotosFlex{
+    .FotosFlex {
         width: 80%;
     }
 
-    .FotosFlex1{
+    .FotosFlex1 {
         width: 300px;
         height: 150px;
     }
-   
-    .contenedormultiple{
+
+    .contenedormultiple {
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr ;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
         align-items: center;
         justify-content: start;
     }
 
-    .Conocenos{
+    .Conocenos {
         width: 30%;
         font-size: 20px;
     }
 
-    .conejo{
-        position: absolute; 
+    .conejo {
+        position: absolute;
         right: 80px;
         width: 170px;
     }
 
-    .SitioWeb{
+    .SitioWeb {
         font-size: medium;
     }
 
-    .conejoblanco{
+    .conejoblanco {
         width: 370px;
     }
 
-    .fotocarousel{
+    .fotocarousel {
         margin-top: 20px;
         margin-bottom: 20px;
         width: 100%;
     }
 
-    .carousel{
+    .carousel {
         margin-top: 0px;
     }
 
-    .container-fluid{
+    .container-fluid {
         display: flex;
         justify-content: center !important;
     }
@@ -398,88 +415,96 @@
         background-color: rgba(128, 128, 128, 0.363);
     }
 
-    .index1{
+    .index1 {
         font-size: 25px;
         font-weight: 100;
     }
 
-    .index2{
+    .index2 {
         font-size: 20px;
     }
 
-    .margen{ 
-        
-        padding-top: 10px ;
+    .margen {
+
+        padding-top: 10px;
         padding-bottom: 10px;
         align-items: center;
-        h3{
-        font-size: 30px;
-        background-color: rgba(128, 128, 128, 0.363);
-     }
+
+        h3 {
+            font-size: 30px;
+            background-color: rgba(128, 128, 128, 0.363);
+        }
     }
 
-    fieldset{
+    fieldset {
         margin: 3px;
         border: 3px solid navy;
         padding: 15px;
     }
 
-    .MargenSobre{
+    .MargenSobre {
         display: flex;
         flex-flow: column wrap;
-        .Swift{
+
+        .Swift {
             width: 100%;
         }
-        .Sobre1{
+
+        .Sobre1 {
             width: 100%;
             font-size: 20px;
             font-weight: 100;
         }
     }
-    
-    .navbar-light .navbar-toggler{
+
+    .navbar-light .navbar-toggler {
         display: none;
     }
 
-    .btn-primary{
+    .btn-primary {
         display: inline !important;
     }
 
-    .dropdown-menu{
+    .dropdown-menu {
         width: 83% !important;
         border: 0px;
     }
 
-    .offcanvas{
+    .offcanvas {
         background-image: url(../imagenes/wepik-2021720-144851.jpg);
         opacity: 0.9;
     }
-    
-    .Principal{
-        
+
+    .Principal {
+
         margin-top: 50%;
-        .ImagenBienvenido{
+
+        .ImagenBienvenido {
             width: 90%;
             margin-top: 10%;
             margin-bottom: 10%;
         }
     }
 
-    .TablaEspecificaciones{
+    .TablaEspecificaciones {
         width: 99%;
-        .fila1, .columna1{
+
+        .fila1,
+        .columna1 {
             font-size: 17px;
         }
-        .Columna2{
+
+        .Columna2 {
             font-size: 15px;
         }
     }
 
-    .SubTitulo, .SubTitulo2{
+    .SubTitulo,
+    .SubTitulo2 {
         font-size: 20px;
     }
 
-    .dropdown-menu{
+    .dropdown-menu {
         margin: 25px;
     }
 
@@ -487,7 +512,7 @@
         text-align: center;
     }
 
-    .fotocontacto{
+    .fotocontacto {
         display: none;
     }
 }

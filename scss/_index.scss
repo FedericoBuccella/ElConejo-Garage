@@ -4,12 +4,13 @@
     box-sizing: border-box;
 }
 
-html{
+html {
     overflow-x: hidden;
     font-family: 'Open Sans Condensed', sans-serif;
 }
 
-ol, ul {
+ol,
+ul {
     padding-left: 0;
 }
 
@@ -19,6 +20,7 @@ body {
     background-attachment: fixed;
     scroll-behavior: smooth;
 }
+
 .index1 {
     width: 75%;
     text-align: center;
@@ -37,15 +39,16 @@ body {
     font-weight: 700;
 }
 
-.index1, .index2{
+.index1,
+.index2 {
     color: rgb(30, 144, 255);
     font-weight: 300;
     text-align: center;
     text-decoration: underline;
-    
+
 }
 
-.Conocenos{
+.Conocenos {
     width: 12%;
     color: white;
     padding: 10px;
@@ -61,18 +64,18 @@ body {
     font-weight: 700;
 }
 
-.TituloIndice{
+.TituloIndice {
     font-weight: 700;
     color: rgb(0, 0, 128);
 }
 
-.Conocenos:hover{
+.Conocenos:hover {
     cursor: pointer;
     transform: translateY(-5px);
     transition: all cubic-bezier(0.215, 0.610, 0.355, 1) .5s;
 }
 
-.Conocenos:active{
+.Conocenos:active {
     transform: translateY(5px);
 }
 
@@ -89,16 +92,16 @@ body {
     vertical-align: baseline;
 }
 
-.carousel{
+.carousel {
     display: block;
     text-align: -webkit-center;
 }
 
-.fotocarousel{
+.fotocarousel {
     width: 50%;
 }
 
-.BotonIndex{
+.BotonIndex {
     color: white;
     text-align: center;
     padding: 6px;
@@ -109,18 +112,22 @@ body {
     background-color: rgba(128, 128, 128, 0.336);
 }
 
-.UbiBoton{
+.UbiBoton {
     text-align: center;
 }
 
-.UbiBoton:hover{
-    color:white;
+.UbiBoton:hover {
+    color: white;
     cursor: pointer;
     transform: translateY(-5px);
     transition: all cubic-bezier(0.215, 0.610, 0.355, 1) .5s;
 }
 
-.UbiBoton:active{
+.UbiBoton:active {
     transform: translateY(7px);
 }
 
+.TextBienvenida,
+.BotonIngreso {
+    font-weight: 700;
+}

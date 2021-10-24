@@ -1,38 +1,38 @@
-.caja{
+.caja {
     display: flex;
     justify-content: center;
     padding-top: 25px;
     padding-bottom: 80px;
 }
 
-.texto1{
+.texto1 {
     position: absolute;
     top: 60%;
-    left:27%;
-    color:bisque; 
-    font-size: 45px; 
+    left: 27%;
+    color: bisque;
+    font-size: 45px;
     font-weight: 700;
 }
 
-.texto2{
+.texto2 {
     position: absolute;
     top: 66%;
     left: 28%;
-    color:bisque; 
-    font-size: 20px; 
+    color: bisque;
+    font-size: 20px;
     font-weight: 700;
 }
 
-.texto3{
+.texto3 {
     position: absolute;
     display: inline-block;
-    top: 73% ;
+    top: 73%;
     left: 32%;
     display: flex;
     width: 0%;
 }
 
-.Conocenos1{
+.Conocenos1 {
     width: 100%;
     color: white;
     padding: 5px;
@@ -45,12 +45,12 @@
     font-size: 22px;
 }
 
-.Conocenos1:hover{
+.Conocenos1:hover {
     cursor: pointer;
     transform: translateY(-5px);
     transition: all cubic-bezier(0.215, 0.610, 0.355, 1) .5s;
 }
 
-.Conocenos1:active{
+.Conocenos1:active {
     transform: translateY(5px);
 }

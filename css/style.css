@@ -12,7 +12,8 @@ html {
   font-family: 'Open Sans Condensed', sans-serif;
 }
 
-ol, ul {
+ol,
+ul {
   padding-left: 0;
 }
 
@@ -41,7 +42,8 @@ body {
   font-weight: 700;
 }
 
-.index1, .index2 {
+.index1,
+.index2 {
   color: dodgerblue;
   font-weight: 300;
   text-align: center;
@@ -139,6 +141,11 @@ body {
           transform: translateY(7px);
 }
 
+.TextBienvenida,
+.BotonIngreso {
+  font-weight: 700;
+}
+
 .contenedorGrids {
   display: -ms-grid;
   display: grid;
@@ -162,6 +169,20 @@ body {
   border: 3px solid navy;
   border-radius: 10px;
   margin: 30px;
+}
+
+.FotosFlex:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-transition: all cubic-bezier(0.215, 0.61, 0.355, 1) 0.5s;
+  transition: all cubic-bezier(0.215, 0.61, 0.355, 1) 0.5s;
+}
+
+.FotosFlex1:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-transition: all cubic-bezier(0.215, 0.61, 0.355, 1) 0.5s;
+  transition: all cubic-bezier(0.215, 0.61, 0.355, 1) 0.5s;
 }
 
 .contenedorGrids1 {
@@ -256,7 +277,8 @@ body {
           justify-content: start;
 }
 
-.prueba, .contenedormultiple {
+.prueba,
+.contenedormultiple {
   margin-right: 20%;
   margin-top: 5%;
   margin-bottom: 5%;
@@ -282,7 +304,8 @@ body {
   margin-right: 0px;
 }
 
-.letra1, .letra {
+.letra1,
+.letra {
   width: 100%;
 }
 
@@ -653,7 +676,8 @@ body {
   font-size: 40px;
 }
 
-.SubTitulo, .SubTitulo2 {
+.SubTitulo,
+.SubTitulo2 {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 30px;
   color: dodgerblue;
@@ -743,7 +767,8 @@ body {
         -ms-flex-pack: start;
             justify-content: start;
   }
-  .prueba, .contenedormultiple {
+  .prueba,
+  .contenedormultiple {
     justify-items: center;
     margin-right: 20%;
     margin-bottom: 2%;
@@ -907,7 +932,8 @@ body {
         -ms-flex-pack: start;
             justify-content: start;
   }
-  .prueba, .contenedormultiple {
+  .prueba,
+  .contenedormultiple {
     justify-items: center;
   }
   .Conocenos {
@@ -1039,7 +1065,8 @@ body {
     grid-row: 1/5;
     text-align: center;
   }
-  .prueba, .contenedormultiple {
+  .prueba,
+  .contenedormultiple {
     margin: 0px;
     padding: 10px;
   }
@@ -1170,13 +1197,15 @@ body {
   .TablaEspecificaciones {
     width: 99%;
   }
-  .TablaEspecificaciones .fila1, .TablaEspecificaciones .columna1 {
+  .TablaEspecificaciones .fila1,
+  .TablaEspecificaciones .columna1 {
     font-size: 17px;
   }
   .TablaEspecificaciones .Columna2 {
     font-size: 15px;
   }
-  .SubTitulo, .SubTitulo2 {
+  .SubTitulo,
+  .SubTitulo2 {
     font-size: 20px;
   }
   .dropdown-menu {

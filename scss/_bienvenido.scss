@@ -1,4 +1,4 @@
-.Principal{
+.Principal {
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
@@ -8,12 +8,12 @@
     padding: 0;
 }
 
-body{
+body {
     background-image: url(../imagenes/wepik-2021720-144851.jpg);
     background-attachment: fixed;
 }
 
-.BotonIngreso{
+.BotonIngreso {
     width: 120%;
     color: white;
     padding: 10px;
@@ -29,13 +29,13 @@ body{
     font-size: 25px;
 }
 
-.BotonIngreso:hover{
+.BotonIngreso:hover {
     cursor: pointer;
     transform: translateY(-5px);
     transition: all cubic-bezier(0.215, 0.610, 0.355, 1) 0.5s;
 }
 
-.BotonIngreso:active{
+.BotonIngreso:active {
     transform: translateZ(5px);
     transition: all cubic-bezier(0.215, 0.610, 0.355, 1) 0.5s;
 

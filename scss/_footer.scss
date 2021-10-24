@@ -4,13 +4,15 @@
     border-radius: 5px;
 }
 
-.NavegacionFlex{
+.NavegacionFlex {
     display: flex;
-    li{
+
+    li {
         list-style-type: none;
         color: white;
         background-color: rgba(128, 128, 128, 0);
-        a{
+
+        a {
             text-decoration: none;
             color: white;
             box-shadow: 2px 2px 2px rgb(0, 0, 128);
@@ -23,11 +25,11 @@
     }
 }
 
-.Fondo3{
+.Fondo3 {
     background-color: rgba(128, 128, 128, 0);
 }
 
-.Fondo3:hover{
+.Fondo3:hover {
     background-color: rgb(0, 0, 0);
 }
 
@@ -38,8 +40,10 @@
 
 }
 
-@each $redes in instagram, whatsapp, facebook{
-    .bi-#{$redes}{
+@each $redes in instagram,
+whatsapp,
+facebook {
+    .bi-#{$redes} {
         color: white;
         width: 100px;
         font-size: 20px;
@@ -47,16 +51,16 @@
 }
 
 
-$redes:(
-        instagram: orange, 
-        whatsapp: green, 
-        facebook: rgb(64, 64, 182), 
+$redes:(instagram: orange,
+    whatsapp: green,
+    facebook: rgb(64, 64, 182),
 
 );
 
-@each $red, $color in $redes {
-    .bi-#{$red}:hover{
+@each $red,
+$color in $redes {
+    .bi-#{$red}:hover {
         color: $color;
 
     }
-} 
+}
